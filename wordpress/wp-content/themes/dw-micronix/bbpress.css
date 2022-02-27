@@ -1,0 +1,284 @@
+.bbp-topic-permalink {
+    color: #000000;
+}
+
+.bbp-topic-freshness a {
+    color: #ffffff;
+}
+
+.bbp-topic-freshness a:hover {
+    color: #979797 !important;
+}
+
+.bbp-topic-meta a {
+    color: #d6b600;
+}
+
+.bbp-topic-meta a:hover {
+    color: #ffffff !important;
+}
+
+div.bbp-breadcrumb,
+div.bbp-topic-tags {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+/* favorite and subscribe links */
+
+#bbpress-forums #favorite-toggle,
+#bbpress-forums #subscription-toggle {
+    font-size: 16px;
+}
+
+
+/* Remove that annoying fielset styling */
+
+#bbpress-forums fieldset.bbp-form {
+    border: none;
+    padding: 0;
+}
+
+#bbpress-forums ul.bbp-forums,
+#bbpress-forums ul.bbp-lead-topic,
+#bbpress-forums ul.bbp-replies,
+#bbpress-forums ul.bbp-search-results,
+#bbpress-forums ul.bbp-topics {
+    background: #7a7a7a;
+    border: 1px solid #000000;
+    padding: 1px;
+}
+
+#bbpress-forums li.bbp-footer,
+#bbpress-forums li.bbp-header {
+    border: 1px solid #000000;
+}
+
+#bbpress-forums li.bbp-footer {
+    background-image: url(images/FCSS/ffoot.png);
+    background-color: #3f3f3f;
+    text-shadow: 0px 0px 2px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000;
+}
+
+#bbpress-forums li.bbp-header {
+    color: #b8b8b8;
+    text-shadow: 0px 0px 2px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000;
+    background-image: url(images/FCSS/fhead.png);
+    background-color: #3b3b3b;
+}
+
+#bbpress-forums li.bbp-body ul.forum,
+#bbpress-forums li.bbp-body ul.topic {
+    color: #ffffff;
+    padding: 0;
+}
+
+#bbpress-forums li {
+    font-size: 14px;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.8px;
+}
+
+#bbpress-forums div.odd,
+#bbpress-forums ul.odd {
+    background-repeat: repeat-x;
+    background-image: url(images/FCSS/f-odd.png);
+    background-color: #626262;
+}
+
+#bbpress-forums div.even,
+#bbpress-forums ul.even {
+    background-repeat: repeat-x;
+    background-image: url(images/FCSS/f-even.png);
+    background-color: #424242;
+}
+
+#bbpress-forums li.bbp-body ul.forum,
+#bbpress-forums li.bbp-body ul.topic {
+    padding: 10px 16px;
+    border: 1px solid #000000;
+    margin: 1px 0px 1px 0px;
+}
+
+#bbpress-forums li.bbp-footer,
+#bbpress-forums li.bbp-header {
+    padding: 16px;
+}
+
+#bbpress-forums div.bbp-forum-header,
+#bbpress-forums div.bbp-reply-header,
+#bbpress-forums div.bbp-topic-header {
+    background-color: #7e7e7e;
+}
+
+#bbpress-forums div.bbp-reply-author,
+#bbpress-forums div.bbp-forum-author,
+#bbpress-forums div.bbp-topic-author {
+    width: 174px;
+}
+
+.bbp-header .bbp-reply-author,
+.bbp-header .bbp-reply-content,
+.bbp-footer .bbp-reply-author,
+.bbp-footer .bbp-reply-content,
+.bbp-meta {
+    text-transform: uppercase;
+}
+
+
+/* warning notice */
+
+div.bbp-template-notice.info {
+    border: 1px solid #000;
+    background-color: #b3b3b3;
+}
+
+div.bbp-template-notice.info a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px #000000, 1px 1px 3px #000000, 0px 0px 3px #000000;
+}
+
+div.bbp-template-notice.info a:hover {
+    color: #000000;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+
+/* thread that is currently in bin */
+
+#bbpress-forums .status-spam.even,
+#bbpress-forums .status-trash.even {
+    background-color: rgba(255, 0, 0, 0.271);
+}
+
+
+/* un-approved thread coloring */
+
+#bbpress-forums .status-pending.even,
+#bbpress-forums .status-pending.odd,
+#bbpress-forums ul.status-pending a {
+    background-color: rgba(104, 104, 104, 0.27);
+}
+
+
+/* Pagination links above forum body */
+
+.bbp-pagination {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+#bbpress-forums .bbp-pagination-links a,
+#bbpress-forums .bbp-pagination-links span.current {
+    padding: 5px 10px;
+    background-color: #363636;
+    box-shadow: inset 0px 1px 1px #505050, 0px 0px 1px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000;
+    text-shadow: 0px 0px 6px #000000, 0px 0px 4px #000000, 0px 0px 2px #000000;
+    text-align: center;
+}
+
+#bbpress-forums .bbp-pagination-links a,
+#bbpress-forums .bbp-pagination-links span.current {
+    border: 1px solid #000;
+    font-size: 14px;
+}
+
+#bbpress-forums .bbp-pagination-links a:hover,
+#bbpress-forums .bbp-pagination-links span.current,
+#bbpress-forums .bbp-topic-pagination a:hover {
+    border: 1px solid #808080;
+}
+
+
+/* Pagination links inside the topic title */
+
+#bbpress-forums .bbp-topic-pagination a {
+    padding: 2px 6px;
+    background-color: #929292;
+    box-shadow: inset 0px 1px 1px #505050, 0px 0px 1px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000;
+    text-shadow: 0px 0px 6px #000000, 0px 0px 4px #000000, 0px 0px 2px #000000;
+    text-align: center;
+}
+
+#bbpress-forums .bbp-topic-pagination a {
+    border: 1px solid #000;
+}
+
+
+/* last poster username */
+
+#bbpress-forums p.bbp-topic-meta span {
+    font-size: 16px;
+}
+
+
+/* last poster avatar */
+
+
+/* #bbpress-forums .widget_display_replies img.avatar, 
+#bbpress-forums .widget_display_topics img.avatar, 
+#bbpress-forums div.bbp-template-notice img.avatar, 
+#bbpress-forums p.bbp-topic-meta img.avatar, 
+#bbpress-forums ul.bbp-reply-revision-log img.avatar, 
+#bbpress-forums ul.bbp-topic-revision-log img.avatar {
+	width: 30px;
+	height: 30px;
+} */
+
+
+/* new topic title textfield */
+
+#bbpress-forums fieldset.bbp-form input[type="text"],
+#bbpress-forums fieldset.bbp-form select,
+.bbp-login-form .bbp-email input,
+.bbp-login-form .bbp-password input,
+.bbp-login-form .bbp-username input {
+    background-color: #acacac;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    min-height: 28px;
+    height: 28px;
+    padding: 5px;
+}
+
+
+/* new topic content box textarea */
+
+#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content {
+    background-color: #acacac;
+    /* border: 1px solid rgba(0, 0, 0, 0.6); */
+    color: #000000;
+    font-size: 14px;
+}
+
+
+/* the two classes below need to have !important set, as they are alterting WordPress core CSS */
+
+.wp-editor-container {
+    border: 1px solid rgba(0, 0, 0, 0.6) !important;
+}
+
+.quicktags-toolbar {
+    background: #636363 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6) !important;
+}
+
+
+/* Textarea editor buttons */
+
+#bbpress-forums div.bbp-the-content-wrapper input[type="button"] {
+    margin: 0 5px 0 0;
+    padding: 2px 6px;
+    background-color: #838383;
+    box-shadow: inset 0px 1px 1px #505050, 0px 0px 1px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000;
+    color: #d89400;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px #000000, 0px 0px 2px #000000, 0px 0px 2px #000000;
+}
+
+#bbpress-forums div.bbp-the-content-wrapper input[type="button"]:hover {
+    background-color: rgb(192, 192, 192);
+}
